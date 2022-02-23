@@ -1,0 +1,19 @@
+Results from first delta cal:
+// stepper_a: position_endstop: 266.190157 angle: 210.149569 arm_length: 287.000000
+// stepper_b: position_endstop: 266.622545 angle: 330.805701 arm_length: 287.000000
+// stepper_c: position_endstop: 266.867678 angle: 90.000000 arm_length: 287.000000
+// delta_radius: 150.009293
+
+DELTA_ANALYZE CENTER_DISTS=74.03,73.12,73.60,73.52,73.25,73.53
+DELTA_ANALYZE OUTER_DISTS=73.71,74.00,73.21,73.40,73.58,73.19
+DELTA_ANALYZE CENTER_PILLAR_WIDTHS=9.04,9.05,9.05
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=9.16,9.24,9.14,9.07,9.06,9.07
+DELTA_ANALYZE SCALE=1.0
+DELTA_ANALYZE CALIBRATE=extended
+
+// stepper_a: position_endstop: 266.963023 angle: 209.980812 arm_length: 280.578672
+// stepper_b: position_endstop: 266.379233 angle: 329.457349 arm_length: 283.182906
+// stepper_c: position_endstop: 266.262358 angle: 90.000000 arm_length: 283.316762
+// delta_radius: 148.402777
+// The SAVE_CONFIG command will update the printer config file
+// with these parameters and restart the printer.
