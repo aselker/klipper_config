@@ -1,0 +1,24 @@
+TODO:
+* Maybe manual Z calibration (dimensional accuracy)?  Would probably have to redo advanced delta calibration
+* Maybe resonance compensation?  Resonance doesn't actually seem too bad
+
+250 mm/s: 
+SET_VELOCITY_LIMIT ACCEL_TO_DECEL=14000
+TUNING_TOWER COMMAND=SET_VELOCITY_LIMIT PARAMETER=ACCEL START=5000 STEP_DELTA=1000 STEP_HEIGHT=5
+
+TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.020
+30mm -> 0.6 
+
+Stuff seems to work well, printed a spare carriage.  Still slight blobbing on corners, and holes don't quite connect to the perimeteres around them -- underextruding?  Holes are shrinking?  Is 205 too cold?
+
+Bumped max_accel from 3000 to 6000, still work? yeah, looks about the same (44:56)
+
+max_accel to 8000, and print at 170 mm/s (85 for walls) -> 
+
+
+16:51:14  // stepper_a: position_endstop: 266.637205 angle: 210.062705 arm_length: 283.766165
+// stepper_b: position_endstop: 266.992758 angle: 329.782743 arm_length: 284.806374
+// stepper_c: position_endstop: 267.282279 angle: 90.000000 arm_length: 284.199904
+// delta_radius: 149.479350
+
+Freq estimate 50hz, but very little visible.

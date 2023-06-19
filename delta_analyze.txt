@@ -17,3 +17,22 @@ DELTA_ANALYZE CALIBRATE=extended
 // delta_radius: 148.402777
 // The SAVE_CONFIG command will update the printer config file
 // with these parameters and restart the printer.
+
+
+2023-06-17:
+DELTA_ANALYZE CENTER_DISTS=74.04,73.99,73.84,73.76,73.74,73.71
+DELTA_ANALYZE OUTER_DISTS=74.00,74.09,73.84,73.69,73.73,74.06
+DELTA_ANALYZE CENTER_PILLAR_WIDTHS=9.13,9.16,9.21
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=9.26,9.33,9.24,9.31,9.17,9.24
+DELTA_ANALYZE SCALE=1.0
+DELTA_ANALYZE CALIBRATE=extended
+SAVE_CONFIG
+
+21:26:38  // Working on calibration...
+21:26:42  // stepper_a: position_endstop: 267.158171 angle: 210.128669 arm_length: 282.385479
+// stepper_b: position_endstop: 267.160910 angle: 329.138193 arm_length: 284.170407
+// stepper_c: position_endstop: 266.728665 angle: 90.000000 arm_length: 286.334514
+// delta_radius: 150.103571
+21:26:43  // The SAVE_CONFIG command will update the printer config file
+// with these parameters and restart the printer.
+21:26:44  // Klipper state: Disconnect
