@@ -1,3 +1,5 @@
+I think printer.cfg is the real one, not custom.cfg.
+
 TODO:
 * Maybe manual Z calibration (dimensional accuracy)?  Would probably have to redo advanced delta calibration
 * Maybe resonance compensation?  Resonance doesn't actually seem too bad
