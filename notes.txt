@@ -24,3 +24,5 @@ max_accel to 8000, and print at 170 mm/s (85 for walls) ->
 // delta_radius: 149.479350
 
 Freq estimate 50hz, but very little visible.
+
+I think the Bowden tube is 750mm long.

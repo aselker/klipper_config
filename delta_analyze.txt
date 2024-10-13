@@ -45,3 +45,9 @@ SAVE_CONFIG
 // stepper_c: position_endstop: 267.121305 angle: 90.000000 arm_length: 283.333216
 // delta_radius: 149.044665
 A little low; prints stick like hell, getting some elephant's foot.  Gonna subtract 0.05 mm from all three endstops (in the commented-out section at the bottom of the config). -- yep that adjusted it, even though it appears to be commented out!
+
+
+21:30:48  // stepper_a: position_endstop: 265.585675 angle: 210.176925 arm_length: 282.968902
+// stepper_b: position_endstop: 266.794738 angle: 329.584350 arm_length: 282.741127
+// stepper_c: position_endstop: 267.105217 angle: 90.000000 arm_length: 283.546425
+// delta_radius: 149.406683
