@@ -1,8 +1,9 @@
-I think printer.cfg is the real one, not custom.cfg.
+printer.cfg is the current config.  custom.cfg is old / I never have used it.
+
+hostname is raspberrypi, username pi, password qwerty123.
 
 TODO:
 * Maybe manual Z calibration (dimensional accuracy)?  Would probably have to redo advanced delta calibration
-* Maybe resonance compensation?  Resonance doesn't actually seem too bad
 
 250 mm/s: 
 SET_VELOCITY_LIMIT ACCEL_TO_DECEL=14000
@@ -26,3 +27,16 @@ max_accel to 8000, and print at 170 mm/s (85 for walls) ->
 Freq estimate 50hz, but very little visible.
 
 I think the Bowden tube is 750mm long.
+
+TODO:
+* Retune pressure advance
+* Use a Sharpie to get an actual print-area shape
+* Print a spare extruder in case I melt mine
+
+X: 1.58mm
+Y: 2.7 or 2.8?
+100 mm/s, so that's 63.3 Hz or 36.4 Hz
+
+Tried resonance compensation / input shaping, but it didn't seem to do much.
+
+After shimming both ends of the Bowden tube, I redid a pressure-advance tower, but it was hard to tell where was ideal.  Arbitrarily brought pressure advance down from 0.6 to 0.25.
