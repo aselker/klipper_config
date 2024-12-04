@@ -51,3 +51,25 @@ A little low; prints stick like hell, getting some elephant's foot.  Gonna subtr
 // stepper_b: position_endstop: 266.794738 angle: 329.584350 arm_length: 282.741127
 // stepper_c: position_endstop: 267.105217 angle: 90.000000 arm_length: 283.546425
 // delta_radius: 149.406683
+
+
+
+I rebuild the printer (new effector, linear guides), then do a series of calibrations:
+
+/ stepper_a: position_endstop: 300.613351 angle: 210.036653 arm_length: 269.660678
+// stepper_b: position_endstop: 300.562811 angle: 329.167370 arm_length: 271.466130
+// stepper_c: position_endstop: 300.607343 angle: 90.000000 arm_length: 272.727874
+// delta_radius: 142.663334
+
+// stepper_a: position_endstop: 300.621988 angle: 210.015400 arm_length: 271.416987
+// stepper_b: position_endstop: 300.551734 angle: 329.171442 arm_length: 273.268147
+// stepper_c: position_endstop: 300.682973 angle: 90.000000 arm_length: 274.388147
+// delta_radius: 143.658855
+
+18:54:59  // stepper_a: position_endstop: 300.620582 angle: 210.004469 arm_length: 271.222703
+// stepper_b: position_endstop: 300.484805 angle: 329.175784 arm_length: 273.184955
+// stepper_c: position_endstop: 300.696088 angle: 90.000000 arm_length: 274.165521
+// delta_radius: 143.563139
+
+
+
