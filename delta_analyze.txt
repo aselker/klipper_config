@@ -94,4 +94,7 @@ DELTA_ANALYZE CENTER_PILLAR_WIDTHS=9.35,9.47,9.38
 DELTA_ANALYZE OUTER_PILLAR_WIDTHS=9.32,9.35,9.28,9.30,9.32,9.37
 DELTA_ANALYZE SCALE=1.0
 
-
+// stepper_a: position_endstop: 300.197091 angle: 209.690435 arm_length: 282.755082
+// stepper_b: position_endstop: 300.241609 angle: 329.610794 arm_length: 285.059171
+// stepper_c: position_endstop: 300.809233 angle: 90.000000 arm_length: 284.270882
+// delta_radius: 144.220361
