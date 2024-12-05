@@ -72,4 +72,26 @@ I rebuild the printer (new effector, linear guides), then do a series of calibra
 // delta_radius: 143.563139
 
 
+Changed delta_calibrate radius from 60 to 80...
+// stepper_a: position_endstop: 300.609233 angle: 210.002993 arm_length: 267.923971
+// stepper_b: position_endstop: 300.396495 angle: 329.128064 arm_length: 270.036272
+// stepper_c: position_endstop: 300.645577 angle: 90.000000 arm_length: 270.935419
+// delta_radius: 141.713140
+
+
+More points! (by hacking python) ...
+// stepper_a: position_endstop: 300.460023 angle: 210.071481 arm_length: 266.138340
+// stepper_b: position_endstop: 300.493998 angle: 329.180357 arm_length: 267.809165
+// stepper_c: position_endstop: 300.480815 angle: 90.000000 arm_length: 269.107143
+// delta_radius: 140.598718
+
+
+Better.  Full cal, with print, measuring with bed at 70C:
+
+DELTA_ANALYZE CENTER_DISTS=77.25,77.95,77.37,77.95,77.66,78.18
+DELTA_ANALYZE OUTER_DISTS=77.63,77.63,77.68,77.68,77.49,77.97
+DELTA_ANALYZE CENTER_PILLAR_WIDTHS=9.35,9.47,9.38
+DELTA_ANALYZE OUTER_PILLAR_WIDTHS=9.32,9.35,9.28,9.30,9.32,9.37
+DELTA_ANALYZE SCALE=1.0
+
 

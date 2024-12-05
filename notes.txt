@@ -40,3 +40,6 @@ Y: 2.7 or 2.8?
 Tried resonance compensation / input shaping, but it didn't seem to do much.
 
 After shimming both ends of the Bowden tube, I redid a pressure-advance tower, but it was hard to tell where was ideal.  Arbitrarily brought pressure advance down from 0.6 to 0.25.
+
+
+https://github.com/Klipper3d/klipper/issues/3185
