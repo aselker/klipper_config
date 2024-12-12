@@ -66,7 +66,7 @@ I rebuild the printer (new effector, linear guides), then do a series of calibra
 // stepper_c: position_endstop: 300.682973 angle: 90.000000 arm_length: 274.388147
 // delta_radius: 143.658855
 
-18:54:59  // stepper_a: position_endstop: 300.620582 angle: 210.004469 arm_length: 271.222703
+// stepper_a: position_endstop: 300.620582 angle: 210.004469 arm_length: 271.222703
 // stepper_b: position_endstop: 300.484805 angle: 329.175784 arm_length: 273.184955
 // stepper_c: position_endstop: 300.696088 angle: 90.000000 arm_length: 274.165521
 // delta_radius: 143.563139
@@ -86,7 +86,8 @@ More points! (by hacking python) ...
 // delta_radius: 140.598718
 
 
-Better.  Full cal, with print, measuring with bed at 70C:
+Better; can print the calibration wheel thing with visible first-layer unevenness but acceptable adhesion.  Full cal, with print, measuring with bed at 70C:
+(some ad-hoc checks show about 1/10_000 contraction after cooling off. 77.15 vs 77.25, 77.54 vs 77.68)
 
 DELTA_ANALYZE CENTER_DISTS=77.25,77.95,77.37,77.95,77.66,78.18
 DELTA_ANALYZE OUTER_DISTS=77.63,77.63,77.68,77.68,77.49,77.97
@@ -98,3 +99,11 @@ DELTA_ANALYZE SCALE=1.0
 // stepper_b: position_endstop: 300.241609 angle: 329.610794 arm_length: 285.059171
 // stepper_c: position_endstop: 300.809233 angle: 90.000000 arm_length: 284.270882
 // delta_radius: 144.220361
+
+
+After flipping belt, run a basic analyze...
+
+19:43:32  // stepper_a: position_endstop: 301.440172 angle: 209.530614 arm_length: 280.605981
+// stepper_b: position_endstop: 300.235258 angle: 329.174509 arm_length: 285.094883
+// stepper_c: position_endstop: 300.551083 angle: 90.000000 arm_length: 284.809675
+// delta_radius: 143.935333
