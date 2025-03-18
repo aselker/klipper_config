@@ -1,0 +1,13 @@
+diff --git a/klippy/extras/delta_calibrate.py b/klippy/extras/delta_calibrate.py
+index 4054e2310..d0b618079 100644
+--- a/klippy/extras/delta_calibrate.py
++++ b/klippy/extras/delta_calibrate.py
+@@ -88,6 +88,8 @@ class DeltaCalibrate:
+             r = math.radians(90. + 60. * i)
+             dist = radius * scatter[i]
+             points.append((math.cos(r) * dist, math.sin(r) * dist))
++            dist = radius * scatter[i] / 2
++            points.append((math.cos(r) * dist, math.sin(r) * dist))
+         self.probe_helper = probe.ProbePointsHelper(
+             config, self.probe_finalize, default_points=points)
+         self.probe_helper.minimum_points(3)
