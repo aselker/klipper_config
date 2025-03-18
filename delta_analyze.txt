@@ -103,7 +103,15 @@ DELTA_ANALYZE SCALE=1.0
 
 After flipping belt, run a basic analyze...
 
-19:43:32  // stepper_a: position_endstop: 301.440172 angle: 209.530614 arm_length: 280.605981
+// stepper_a: position_endstop: 301.440172 angle: 209.530614 arm_length: 280.605981
 // stepper_b: position_endstop: 300.235258 angle: 329.174509 arm_length: 285.094883
 // stepper_c: position_endstop: 300.551083 angle: 90.000000 arm_length: 284.809675
 // delta_radius: 143.935333
+
+
+After installing offset endstops...
+
+// stepper_a: position_endstop: 301.763020 angle: 209.361629 arm_length: 280.111290
+// stepper_b: position_endstop: 299.879544 angle: 328.967399 arm_length: 285.809525
+// stepper_c: position_endstop: 300.524190 angle: 90.000000 arm_length: 285.003200
+// delta_radius: 144.014394
